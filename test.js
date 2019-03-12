@@ -20,5 +20,4 @@ function getStatusUpVideo(){
         var a = $('#divUploadVideo');
         var styleProps = a.css(['display']);
         return styleProps.hasOwnProperty("display") && styleProps["display"] == "none";
-    });
 }
