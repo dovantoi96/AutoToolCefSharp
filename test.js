@@ -16,7 +16,7 @@ function xoa_dau(str) {
     return str;
 }
 
-function getStatusUpVideo(str){
+function getStatusUpVideo(){
         var a = $('#divUploadVideo');
         var styleProps = a.css(['display']);
         $.each( styleProps, function( prop, value ) {
