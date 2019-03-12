@@ -18,12 +18,11 @@ function xoa_dau(str) {
 
 function getStatusUpVideo(str){
         var a = $('#divUploadVideo');
-        var rl = false;
         var styleProps = a.css(['display']);
         $.each( styleProps, function( prop, value ) {
         console.log(value);
         if(value == 'none'){
-	        return false;
+	        return true;
         }
     });
 }
