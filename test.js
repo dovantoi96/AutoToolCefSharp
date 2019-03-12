@@ -15,3 +15,15 @@ function xoa_dau(str) {
     str = str.replace(/Đ/g, "D");
     return str;
 }
+
+function getStatusUpVideo(){
+        var a = $('#divUploadVideo');
+        var rl = false;
+        var styleProps = a.css(['display']);
+        $.each( styleProps, function( prop, value ) {
+        console.log(value);
+        if(value == 'none'){
+	        return false;
+        }
+    });
+}
