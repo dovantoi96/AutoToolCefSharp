@@ -16,8 +16,8 @@ function xoa_dau(str) {
     return str;
 }
 
-function getStatusUpVideo(){
-        var a = $('#divUploadVideo');
+function getStatusUpVideo(str){
+        var a = $('#'+str);
         var styleProps = a.css(['display']);
         return styleProps.hasOwnProperty("display") && styleProps["display"] == "none";
 }
